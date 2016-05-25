@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TTC Trip Planner/ViewController.swift"
+            timestampString = "485904842.461192"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TTC_Trip_Planner.ViewController.routes.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "TTC Trip Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Documents/ICS3U/TTC%20Trip%20Planner/TTC%20Trip%20Planner/ViewController.swift"
+                  timestampString = "485904845.880509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TTC_Trip_Planner.ViewController.routes.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "TTC Trip Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Documents/ICS3U/TTC%20Trip%20Planner/TTC%20Trip%20Planner/ViewController.swift"
+                  timestampString = "485904849.469376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TTC_Trip_Planner.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TTC_Trip_Planner.ViewController"
+                  moduleName = "TTC Trip Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Documents/ICS3U/TTC%20Trip%20Planner/TTC%20Trip%20Planner/ViewController.swift"
+                  timestampString = "485904849.469794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TTC_Trip_Planner.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TTC_Trip_Planner.ViewController&gt;"
+                  moduleName = "TTC Trip Planner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Documents/ICS3U/TTC%20Trip%20Planner/TTC%20Trip%20Planner/ViewController.swift"
+                  timestampString = "485904849.469992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

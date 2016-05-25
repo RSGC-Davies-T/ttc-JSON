@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  TTC Trip Planner
+//
+//  Created by Tommy Davies on 2016-05-24.
+//  Copyright © 2016 Tommy Davies. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+@property (weak, nonatomic) UITableView *firstTableView;
+@property (weak, nonatomic) UITableView *secondTableView;
+@property (weak, nonatomic) UITableView *thirdTableView;
+
+#endif /* PrefixHeader_pch */

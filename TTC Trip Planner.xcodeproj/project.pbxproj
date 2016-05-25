@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF407841CEF4544009D2A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF407831CEF4544009D2A84 /* AppDelegate.swift */; };
+		0BF407861CEF4544009D2A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF407851CEF4544009D2A84 /* ViewController.swift */; };
+		0BF407891CEF4545009D2A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF407871CEF4545009D2A84 /* Main.storyboard */; };
+		0BF4078B1CEF4545009D2A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4078A1CEF4545009D2A84 /* Assets.xcassets */; };
+		0BF4078E1CEF4545009D2A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4078C1CEF4545009D2A84 /* LaunchScreen.storyboard */; };
+		0BF407991CEF4548009D2A84 /* TTC_Trip_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF407981CEF4548009D2A84 /* TTC_Trip_PlannerTests.swift */; };
+		0BF407A41CEF4549009D2A84 /* TTC_Trip_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF407A31CEF4549009D2A84 /* TTC_Trip_PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF407951CEF4548009D2A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF407781CEF4541009D2A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF4077F1CEF4542009D2A84;
+			remoteInfo = "TTC Trip Planner";
+		};
+		0BF407A01CEF4549009D2A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF407781CEF4541009D2A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF4077F1CEF4542009D2A84;
+			remoteInfo = "TTC Trip Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B45DBB51CF534F60009B388 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0BF407801CEF4543009D2A84 /* TTC Trip Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTC Trip Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF407831CEF4544009D2A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BF407851CEF4544009D2A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BF407881CEF4545009D2A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BF4078A1CEF4545009D2A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BF4078D1CEF4545009D2A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BF4078F1CEF4545009D2A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF407941CEF4548009D2A84 /* TTC Trip PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTC Trip PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF407981CEF4548009D2A84 /* TTC_Trip_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTC_Trip_PlannerTests.swift; sourceTree = "<group>"; };
+		0BF4079A1CEF4548009D2A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF4079F1CEF4549009D2A84 /* TTC Trip PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTC Trip PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF407A31CEF4549009D2A84 /* TTC_Trip_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTC_Trip_PlannerUITests.swift; sourceTree = "<group>"; };
+		0BF407A51CEF4549009D2A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF4077D1CEF4542009D2A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF407911CEF4548009D2A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF4079C1CEF4548009D2A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF407771CEF4541009D2A84 = {
+			isa = PBXGroup;
+			children = (
+				0BF407821CEF4543009D2A84 /* TTC Trip Planner */,
+				0BF407971CEF4548009D2A84 /* TTC Trip PlannerTests */,
+				0BF407A21CEF4549009D2A84 /* TTC Trip PlannerUITests */,
+				0BF407811CEF4543009D2A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BF407811CEF4543009D2A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BF407801CEF4543009D2A84 /* TTC Trip Planner.app */,
+				0BF407941CEF4548009D2A84 /* TTC Trip PlannerTests.xctest */,
+				0BF4079F1CEF4549009D2A84 /* TTC Trip PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BF407821CEF4543009D2A84 /* TTC Trip Planner */ = {
+			isa = PBXGroup;
+			children = (
+				0BF407831CEF4544009D2A84 /* AppDelegate.swift */,
+				0BF407851CEF4544009D2A84 /* ViewController.swift */,
+				0BF407871CEF4545009D2A84 /* Main.storyboard */,
+				0BF4078A1CEF4545009D2A84 /* Assets.xcassets */,
+				0BF4078C1CEF4545009D2A84 /* LaunchScreen.storyboard */,
+				0BF4078F1CEF4545009D2A84 /* Info.plist */,
+				0B45DBB51CF534F60009B388 /* PrefixHeader.pch */,
+			);
+			path = "TTC Trip Planner";
+			sourceTree = "<group>";
+		};
+		0BF407971CEF4548009D2A84 /* TTC Trip PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF407981CEF4548009D2A84 /* TTC_Trip_PlannerTests.swift */,
+				0BF4079A1CEF4548009D2A84 /* Info.plist */,
+			);
+			path = "TTC Trip PlannerTests";
+			sourceTree = "<group>";
+		};
+		0BF407A21CEF4549009D2A84 /* TTC Trip PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF407A31CEF4549009D2A84 /* TTC_Trip_PlannerUITests.swift */,
+				0BF407A51CEF4549009D2A84 /* Info.plist */,
+			);
+			path = "TTC Trip PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BF4077F1CEF4542009D2A84 /* TTC Trip Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF407A81CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip Planner" */;
+			buildPhases = (
+				0BF4077C1CEF4542009D2A84 /* Sources */,
+				0BF4077D1CEF4542009D2A84 /* Frameworks */,
+				0BF4077E1CEF4542009D2A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTC Trip Planner";
+			productName = "TTC Trip Planner";
+			productReference = 0BF407801CEF4543009D2A84 /* TTC Trip Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BF407931CEF4548009D2A84 /* TTC Trip PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF407AB1CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip PlannerTests" */;
+			buildPhases = (
+				0BF407901CEF4548009D2A84 /* Sources */,
+				0BF407911CEF4548009D2A84 /* Frameworks */,
+				0BF407921CEF4548009D2A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF407961CEF4548009D2A84 /* PBXTargetDependency */,
+			);
+			name = "TTC Trip PlannerTests";
+			productName = "TTC Trip PlannerTests";
+			productReference = 0BF407941CEF4548009D2A84 /* TTC Trip PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BF4079E1CEF4548009D2A84 /* TTC Trip PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF407AE1CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip PlannerUITests" */;
+			buildPhases = (
+				0BF4079B1CEF4548009D2A84 /* Sources */,
+				0BF4079C1CEF4548009D2A84 /* Frameworks */,
+				0BF4079D1CEF4548009D2A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF407A11CEF4549009D2A84 /* PBXTargetDependency */,
+			);
+			name = "TTC Trip PlannerUITests";
+			productName = "TTC Trip PlannerUITests";
+			productReference = 0BF4079F1CEF4549009D2A84 /* TTC Trip PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BF407781CEF4541009D2A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tommy Davies";
+				TargetAttributes = {
+					0BF4077F1CEF4542009D2A84 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XHYL7PHLTA;
+					};
+					0BF407931CEF4548009D2A84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0BF4077F1CEF4542009D2A84;
+					};
+					0BF4079E1CEF4548009D2A84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0BF4077F1CEF4542009D2A84;
+					};
+				};
+			};
+			buildConfigurationList = 0BF4077B1CEF4541009D2A84 /* Build configuration list for PBXProject "TTC Trip Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BF407771CEF4541009D2A84;
+			productRefGroup = 0BF407811CEF4543009D2A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BF4077F1CEF4542009D2A84 /* TTC Trip Planner */,
+				0BF407931CEF4548009D2A84 /* TTC Trip PlannerTests */,
+				0BF4079E1CEF4548009D2A84 /* TTC Trip PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BF4077E1CEF4542009D2A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF4078E1CEF4545009D2A84 /* LaunchScreen.storyboard in Resources */,
+				0BF4078B1CEF4545009D2A84 /* Assets.xcassets in Resources */,
+				0BF407891CEF4545009D2A84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF407921CEF4548009D2A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF4079D1CEF4548009D2A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF4077C1CEF4542009D2A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF407861CEF4544009D2A84 /* ViewController.swift in Sources */,
+				0BF407841CEF4544009D2A84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF407901CEF4548009D2A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF407991CEF4548009D2A84 /* TTC_Trip_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF4079B1CEF4548009D2A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF407A41CEF4549009D2A84 /* TTC_Trip_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF407961CEF4548009D2A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF4077F1CEF4542009D2A84 /* TTC Trip Planner */;
+			targetProxy = 0BF407951CEF4548009D2A84 /* PBXContainerItemProxy */;
+		};
+		0BF407A11CEF4549009D2A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF4077F1CEF4542009D2A84 /* TTC Trip Planner */;
+			targetProxy = 0BF407A01CEF4549009D2A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BF407871CEF4545009D2A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF407881CEF4545009D2A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BF4078C1CEF4545009D2A84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF4078D1CEF4545009D2A84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BF407A61CEF4549009D2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BF407A71CEF4549009D2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BF407A91CEF4549009D2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TTC Trip Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0BF407AA1CEF4549009D2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TTC Trip Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0BF407AC1CEF4549009D2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TTC Trip PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTC Trip Planner.app/TTC Trip Planner";
+			};
+			name = Debug;
+		};
+		0BF407AD1CEF4549009D2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TTC Trip PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTC Trip Planner.app/TTC Trip Planner";
+			};
+			name = Release;
+		};
+		0BF407AF1CEF4549009D2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TTC Trip PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TTC Trip Planner";
+			};
+			name = Debug;
+		};
+		0BF407B01CEF4549009D2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TTC Trip PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rsgc.TTC-Trip-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TTC Trip Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BF4077B1CEF4541009D2A84 /* Build configuration list for PBXProject "TTC Trip Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF407A61CEF4549009D2A84 /* Debug */,
+				0BF407A71CEF4549009D2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF407A81CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF407A91CEF4549009D2A84 /* Debug */,
+				0BF407AA1CEF4549009D2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF407AB1CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF407AC1CEF4549009D2A84 /* Debug */,
+				0BF407AD1CEF4549009D2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF407AE1CEF4549009D2A84 /* Build configuration list for PBXNativeTarget "TTC Trip PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF407AF1CEF4549009D2A84 /* Debug */,
+				0BF407B01CEF4549009D2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BF407781CEF4541009D2A84 /* Project object */;
+}
